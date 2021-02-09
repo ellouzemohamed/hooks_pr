@@ -1,0 +1,73 @@
+.todo_list{
+  width :60%;
+  height:200px;
+  background-color: yellow;
+  color:white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.todo_list input {
+  width: 50%;
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 30px;
+}
+.todo_list button {
+  background-color: rgb(0, 238, 255);
+  width: 60px;
+  height: 35px;
+  border-radius: 5px;
+  color: black;
+  border-color: white;
+}
+.list {
+  width: 60%;
+  margin: auto;
+}
+.element{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: royalblue;
+
+}
+.done {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(235, 215, 215);
+  color: black;
+  border-radius: 5px;
+  border-color:white ;
+}
+.delete {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(236, 21, 218);
+  color: black;
+  border-radius: 5px;
+  border-color:white ;
+}
+.text{
+  width: 70%;
+  align-self: center;
+}
+.lineth{
+  width: 70%;
+  align-self: center;
+  text-decoration: line-through;
+}
+.div{
+  background-color: royalblue;
+}
+
+h1{
+  color: black;
+
+}
+.App{
+  margin: 50px auto;
+}
